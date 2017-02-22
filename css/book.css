@@ -1,0 +1,28 @@
+body{
+	margin: 0px;
+}
+#top{
+	margin-top: 57px;
+	
+}
+.get{
+	width: 380px;
+}
+.med{
+	width: 580px;
+}
+
+@media only screen and (max-device-width: 500px){
+	.get{
+	width: 2px;
+	}
+	.med{
+	width: 25px;
+	}
+}
+
+@media only screen and (min-device-width: 768px){
+	.wrap{
+		margin: 50px 50px;
+	}
+}
